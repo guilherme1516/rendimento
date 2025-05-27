@@ -1,0 +1,40 @@
+
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo Financeiro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>calculo financeiro</h1>
+    <label for="rendimento">informe seu rendimento líquido</label>
+    <input type="number" id="rendimento" placeholder="000,00">
+    <button onclick="calcular()">calcular</button>
+
+    <h2>Separação de Rendimento</h2>
+
+    <div id="box" style="display: none;">
+      <div class="item">
+        <img src="money.png" alt="Despesas Fixas" class="icon">
+        <p>Despesas Fixas</p>
+        <p id="fixas">R$ 0,00</p>
+      </div>
+      <div class="item">
+        <img src="din.png" alt="Despesas Variáveis" class="icon">
+        <p>Despesas Variáveis</p>
+        <p id="variaveis">R$ 0,00</p>
+      </div>
+      <div class="item">
+        <img src="inves.png" alt="Investimentos" class="icon">
+        <p>Investimentos</p>
+        <p id="investimentos">R$ 0,00</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
